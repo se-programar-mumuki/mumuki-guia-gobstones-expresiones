@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ContarGente
+  inspection: Uses:PonerN
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ContarGente
+  inspection: Not:UsesRepeat
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity3:ContarGente
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ContarGente
+  inspection: UsesMath
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ContarGente
+  inspection: Not:Uses:Poner
